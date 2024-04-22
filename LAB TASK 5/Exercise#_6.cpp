@@ -64,8 +64,7 @@ int main() {
     // Count words
     int words = 0;
      istringstream iss(fileData);
-   // std::istringstream pea;
-    //iss(fileData);
+
     while (iss >> line) {
         ++words;
     }

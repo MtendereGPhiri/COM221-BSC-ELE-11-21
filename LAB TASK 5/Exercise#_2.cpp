@@ -37,21 +37,19 @@ int main() {
             cout << "Your subscription expires in " << daysUntilExpiration << "days" << endl;
             cout << "Renew now and save 10%!" << endl;
             break;
-
-        case 6: //(daysUntilExpiration <= 10);
+        case 6:
             cout << "Your subscription will expire soon. Renew now!" << endl;
             break;
-
-        case 7: //(daysUntilExpiration <= 10);
+        case 7:
             cout << "Your subscription will expire soon. Renew now!" << endl;
             break;
-        case 8:// (daysUntilExpiration <= 10);
+        case 8:
             cout << "Your subscription will expire soon. Renew now!" << endl;
             break;
-        case 9: //(daysUntilExpiration <= 10);
+        case 9:
             cout << "Your subscription will expire soon. Renew now!" << endl;
             break;
-        case 10: //(daysUntilExpiration <= 10);
+        case 10:
             cout << "Your subscription will expire soon. Renew now!" << endl;
             break;
         default :

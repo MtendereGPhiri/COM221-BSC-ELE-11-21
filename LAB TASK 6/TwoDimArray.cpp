@@ -8,7 +8,7 @@ int main() {
 
     // Validate the dimensions
     if(rows > 3 || cols > 3) {
-        cout << "Dimensions exceed the maximum allowed size of 3." << std::endl;
+        cout << "Dimensions exceed the maximum allowed size of 3." << endl;
         return 1;
     }
 
@@ -27,12 +27,12 @@ int main() {
     }
 
     // Output the array values
-    cout << "Array values:" << std::endl;
+    cout << "Array values:" << endl;
     for(int i = 0; i < rows; ++i) {
         for(int j = 0; j < cols; ++j) {
             cout << array[i][j] << " ";
         }
-        cout << std::endl;
+        cout << endl;
     }
 
     // Deallocate the array

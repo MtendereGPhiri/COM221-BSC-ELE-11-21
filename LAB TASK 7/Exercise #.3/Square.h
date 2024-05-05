@@ -9,6 +9,22 @@
 class Square {
 // Square.cpp
 
+// Square.h
+
+#pragma once
+
+namespace shapes {
+    class Square {
+    private:
+        double sideLength;
+    public:
+        Square(); // Default constructor
+        Square(double side); // Overloaded constructor
+        ~Square(); // Destructor
+        double getSideLength() const;
+        void setSideLength(double side);
+    };
+}
 
 };
 

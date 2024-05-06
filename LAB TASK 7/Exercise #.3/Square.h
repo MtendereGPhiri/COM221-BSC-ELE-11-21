@@ -6,7 +6,7 @@
 #define COMLAB_TASKS_SQUARE_H
 
 
-class Square {
+
 // Square.cpp
 
 // Square.h
@@ -26,7 +26,6 @@ namespace shapes {
     };
 }
 
-};
 
 
 #endif //COMLAB_TASKS_SQUARE_H

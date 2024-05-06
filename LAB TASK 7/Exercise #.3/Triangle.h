@@ -6,8 +6,6 @@
 #define COMLAB_TASKS_TRIANGLE_H
 
 
-class Triangle {
-
 
     // Triangle.h
 #pragma once
@@ -29,12 +27,4 @@ namespace shapes {
         void setHeight(double height);
     };
 }
-
-
-
-
-
-};
-
-
 #endif //COMLAB_TASKS_TRIANGLE_H

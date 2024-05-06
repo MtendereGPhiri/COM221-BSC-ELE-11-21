@@ -32,6 +32,17 @@ int main() {
             }
             case '2': {
                 // Similar procedure for triangle
+                double height;
+                double base;
+
+                cout << "Enter the side length of the square: ";
+                cin >> height;
+
+                cout << "Enter the base ";
+                Triangle triangle(base, height);
+
+                double area = Area::calculateArea(triangle);
+                cout << "Area of the Triangle: " << area << endl;
                 break;
             }
             case '3': {

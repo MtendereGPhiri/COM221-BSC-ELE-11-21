@@ -6,9 +6,6 @@
 #define COMLAB_TASKS_AREA_H
 
 
-class Area {
-
-
 #pragma once
 #include "Square.h"
 #include "Triangle.h"
@@ -24,8 +21,6 @@ public:
 
 
 
-
-};
 
 
 #endif //COMLAB_TASKS_AREA_H

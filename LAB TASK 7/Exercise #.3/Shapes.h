@@ -6,8 +6,11 @@
 #define COMLAB_TASKS_SHAPES_H
 
 
-class Shapes {
-
+namespace Shapes {
+class Area{};
+class Triangle{};
+class Square{};
+class Circle{};
 };
 
 

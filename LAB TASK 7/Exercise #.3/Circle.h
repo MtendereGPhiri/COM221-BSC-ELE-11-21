@@ -6,13 +6,11 @@
 #define COMLAB_TASKS_CIRCLE_H
 
 
-class Circle {
-
-
 
 #pragma once
 
 namespace shapes {
+
     class Circle {
     private:
         double radius;
@@ -26,14 +24,5 @@ namespace shapes {
         void setRadius(double r);
     };
 }
-
-
-
-
-
-
-
-};
-
 
 #endif //COMLAB_TASKS_CIRCLE_H

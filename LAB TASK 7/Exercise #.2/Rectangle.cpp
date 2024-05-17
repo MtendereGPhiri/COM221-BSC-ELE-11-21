@@ -32,21 +32,5 @@ Rectangle::Rectangle(float length, float width, float bottom, float right)
  // establish width and height and then multiply
 
 
- int main()
- {
-    float length;
-    float width;
-    cout << "enter length of that rectangle :";
-    cin >> length;
-    cout << "Enter the width of the rectangle :";
-    cin >> width;
- //initialize a local Rectangle variable
- Rectangle MyRectangle (length, width, width, length );
-
- int Area = MyRectangle.GetArea();
-
-cout << "Area : "<< Area << endl;
- return 0;
- }
 
 #endif //COMLAB_TASKS_RECTANGLE_H

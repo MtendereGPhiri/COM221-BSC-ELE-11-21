@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    Rectangle ::rectangle;
+    Rectangle rectangle;
 
     cout << "Enter the length of the rectangle: ";
     cin >> rectangle.length;

@@ -1,4 +1,4 @@
-// Begin Rectangle.h
+#pragma once
 #include <iostream>
 
 class Sides // holds x,y coordinates
@@ -38,56 +38,17 @@ public:
         return itsWidth;
     }
 
-
-
-    Sides GetUpperLeft() const {
-        return itsUpperLeft;
-    }
-
-    Sides GetLowerLeft() const {
-        return itsLowerLeft;
-    }
-
-    Sides GetUpperRight() const {
-        return itsUpperRight;
-    }
-
-    Sides GetLowerRight() const {
-        return itsLowerRight;
-    }
-
-    void SetUpperLeft(Sides Location) {
-        itsUpperLeft = Location;
-    }
-
-    void SetLowerLeft(Sides Location) {
-        itsLowerLeft = Location;
-    }
-
-    void SetUpperRight(Sides Location) {
-        itsUpperRight = Location;
-    }
-
-    void SetLowerRight(Sides Location) {
-        itsLowerRight = Location;
-    }
-
     void Setlength(float lenth) {
         itslength = lenth;
     }
 
-    void SetLeft(int left) {
-        itsWidth = left;
+    void SetWidth(int Width) {
+        itsWidth = Width;
     }
-
-
     int GetArea() const;
 
 private:
-    Sides itsUpperLeft{};
-    Sides itsUpperRight{};
-    Sides itsLowerLeft{};
-    Sides itsLowerRight{};
+
     int itslength;
     int itsWidth;
    // int itsBottom;

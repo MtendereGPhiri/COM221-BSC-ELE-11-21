@@ -24,70 +24,22 @@ private:
 }; // end of Sides class declaration
 
 
-class Rectangle {
+class Rectangle
+        {
 public:
+            Rectangle();
+            void SetLength();
+            void SetWidth();
+            void GetLength();
+            void GetWidth();
+
     Rectangle(float length, float width, float bottom, float right);
 
     ~Rectangle() {}
 
-    float GetLength() const {
-        return itslength;
-    }
-
-    float GetWidth() const {
-        return itsWidth;
-    }
-
-
-
-    Sides GetUpperLeft() const {
-        return itsUpperLeft;
-    }
-
-    Sides GetLowerLeft() const {
-        return itsLowerLeft;
-    }
-
-    Sides GetUpperRight() const {
-        return itsUpperRight;
-    }
-
-    Sides GetLowerRight() const {
-        return itsLowerRight;
-    }
-
-    void SetUpperLeft(Sides Location) {
-        itsUpperLeft = Location;
-    }
-
-    void SetLowerLeft(Sides Location) {
-        itsLowerLeft = Location;
-    }
-
-    void SetUpperRight(Sides Location) {
-        itsUpperRight = Location;
-    }
-
-    void SetLowerRight(Sides Location) {
-        itsLowerRight = Location;
-    }
-
-    void Setlength(float lenth) {
-        itslength = lenth;
-    }
-
-    void SetLeft(int left) {
-        itsWidth = left;
-    }
-
-
-    int GetArea() const;
 
 private:
-    Sides itsUpperLeft{};
-    Sides itsUpperRight{};
-    Sides itsLowerLeft{};
-    Sides itsLowerRight{};
+
     int itslength;
     int itsWidth;
    // int itsBottom;

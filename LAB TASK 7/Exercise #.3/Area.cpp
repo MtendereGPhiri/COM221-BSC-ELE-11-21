@@ -2,10 +2,10 @@
 // Created by GODWIN on 05/05/2024.
 //
 
-#include "Area.h"
+
 // Area.h
 
-#pragma once
+#include "Area.h"
 #include "Square.h"
 #include "Triangle.h"
 #include "Circle.h"
